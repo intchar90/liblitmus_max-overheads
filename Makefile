@@ -12,7 +12,7 @@ host-arch := $(shell uname -m | \
 ARCH ?= ${host-arch}
 
 # LITMUS_KERNEL -- where to find the litmus kernel?
-LITMUS_KERNEL ?= ../p-litmus-rt
+LITMUS_KERNEL ?= ../litmus-rt
 
 
 # ##############################################################################
