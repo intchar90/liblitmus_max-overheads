@@ -88,7 +88,7 @@ int null_call(cycles_t *timestamp)
 }
 
 
-int get_max_overheads(struct max_overheads_t *_max_overheads)
+int reset_max_overheads(void)
 {
-	return syscall(__NR_get_max_overheads, _max_overheads);
+	return syscall(__NR_reset_max_overheads);
 }
